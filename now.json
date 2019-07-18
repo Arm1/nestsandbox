@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "nestarmand-mvc",
+  "alias": ["nestarmand-mvc.now.sh"],
+  "builds": [
+    {
+      "src": "dist/main.js",
+      "use": "@now/node-server"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "dist/main.js"
+    }
+  ]
+}
