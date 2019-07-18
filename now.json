@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "nestarmand-mvc",
+  "name": "nestarmand",
   "alias": ["nestarmand-mvc.now.sh"],
   "builds": [
     {
